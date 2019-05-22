@@ -23,7 +23,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     follow_redirect!
 
     assert_select 'h2', 'Your Cart'
-    assert_select 'td', "Programming Ruby 1.9"
+    assert_select 'td', "Lorem Title"
   end
 
   test "should show line_item" do
@@ -56,7 +56,7 @@ class LineItemsControllerTest < ActionDispatch::IntegrationTest
     end
     assert_response :success
     assert_select_jquery :html, '#cart' do
-      assert_select 'tr#current_item td', /Programming Ruby 1.9/
+      assert_select 'tr#current_item td', /Lorem Title/
     end
   end
 end
