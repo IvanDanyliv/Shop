@@ -15,6 +15,6 @@ class OrderMailerTest < ActionMailer::TestCase
     assert_equal ["raketa123enot@gmail.com"], mail.to
     assert_equal ["raketa123enot@gmail.com"], mail.from
     # assert_match /<td>1&times;<\/td>\s*<td>Lorem Title<\/td>/, mail.body.encoded
-  end
 
+  end
 end
