@@ -1,4 +1,4 @@
-/*
+  /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -25,6 +25,11 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
   font: small-caps 40px/40px "Times New Roman", serif;
   color: #b300b3;
   text-align: center;
+
+  .locale {
+    float: right;
+    margin: -0.25em 0.1em;
+  }
 
   img {
     position: center;

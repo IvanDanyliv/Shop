@@ -23,20 +23,6 @@ class CartsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to cart_url(Cart.last)
   end
 
-=begin
-  test "should show cart" do
-    get cart_url(@cart)
-    assert_response :success
-  end
-=end
-
-=begin
-  test "should get edit" do
-    get edit_cart_url(@cart)
-    assert_response :success
-  end
-=end
-
   test "should update cart" do
     patch cart_url(@cart), params: { cart: {  } }
     assert_redirected_to cart_url(@cart)
