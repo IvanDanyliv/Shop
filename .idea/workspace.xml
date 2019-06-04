@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7c005db-a27b-496f-a9e2-42da0616d996" name="Default Changelist" comment="">
+    <list default="true" id="f7c005db-a27b-496f-a9e2-42da0616d996" name="Default Changelist" comment="Add admin and add internationalisation">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/store/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/store/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/user_stories_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/user_stories_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -47,7 +45,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153" />
+            <state relative-caret-position="272">
+              <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -57,21 +57,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Order" />
+        <entry key="$PROJECT_DIR$" value="heroku" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20160330000004_add_quantity_to_line_items.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20190515063321_add_quantity_to_line_items.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190515064147_combine_items_in_cart.rb" />
         <option value="$PROJECT_DIR$/app/models/cart.rb" />
         <option value="$PROJECT_DIR$/app/views/carts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/store_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/line_items_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/carts_controller.rb" />
@@ -115,6 +112,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/carts.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
       </list>
     </option>
   </component>
@@ -128,8 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +150,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,6 +290,7 @@
       <workItem from="1558511102918" duration="17158000" />
       <workItem from="1558598686261" duration="2493000" />
       <workItem from="1559130046544" duration="7375000" />
+      <workItem from="1559675945610" duration="4002000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 10">
       <created>1557908811070</created>
@@ -326,20 +327,27 @@
       <option name="project" value="LOCAL" />
       <updated>1558527959752</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add admin and add internationalisation">
+      <created>1559676113997</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559676113998</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73999000" />
+    <option name="totallyTimeSpent" value="78001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="-1" width="1372" height="745" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26969698" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.27424243" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49924242" visible="true" weight="0.35690236" />
-      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49924242" weight="0.35690236" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007576" side_tool="true" weight="0.3855219" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
@@ -364,23 +372,10 @@
     <MESSAGE value="Lab 10 commit" />
     <MESSAGE value="Add AJAX" />
     <MESSAGE value="Add Order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Order" />
+    <MESSAGE value="Add admin and add internationalisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add admin and add internationalisation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/line_items_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/carts_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/carts/_cart.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -659,9 +654,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/product_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
+        <state relative-caret-position="272">
+          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        </state>
       </provider>
     </entry>
   </component>

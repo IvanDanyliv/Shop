@@ -1,4 +1,4 @@
-  source 'https://rubygems.org'
+source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
@@ -64,3 +64,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# group :production do
+#   gem 'rails_12factor', '0.0.2'
+#   gem 'pg'
+# end
